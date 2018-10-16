@@ -1,0 +1,127 @@
+/*******************************
+	All Responsive Code
+*******************************/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	
+.navbar-header {
+    
+    position: absolute;
+    top: -50px;
+    
+    right: 0;
+    
+}
+
+
+	.is-sticky .header-menu-area {
+    background-color: black;
+    opacity: 0.8;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    z-index: 1;
+}
+	.header-text-area.text-center {
+    margin: 4% auto 10px auto;
+}
+	.header-text-area h2,.header-text-area h2 span {
+		font-size: 30px;
+          
+        
+
+    
+}
+.header-btn {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 11px 38px;
+    font-size: 12px;
+    margin-top: 0px;
+     margin-bottom: 0px; 
+}
+.img-detail {
+    
+    width: 80%;
+    left: 10%;
+}
+.blog-single-item {
+    box-shadow: 0 0 5px #c7b5b5;
+    margin: 36px 10px;
+    padding: 50px 50px;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    padding: 50px 40px;
+}
+.contact-btn {
+    padding: 11px 14px;
+    
+    font-size: 14px;
+    
+}
+.contact input {
+    
+    margin-top: 25px;
+}
+    .footer-left {
+    text-align: center;
+    margin-bottom: 15px;
+}
+footer p {
+    text-align: center!important;
+    float: none;
+}
+
+
+
+
+
+    
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+
+.navbar-header {
+    
+    position: absolute;
+    top: -50px;
+    
+    right: 0;
+    
+}
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	
+
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	
+	.navbar-nav>li>a {
+    font-size: 16px;
+    padding: 16px 15px;
+}
+
+   
+    } 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+   
+
+
+
+    }
